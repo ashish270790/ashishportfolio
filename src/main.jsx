@@ -9,6 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import 'animate.css/animate.min.css'; // Animate.css
 
+import WOW from 'wowjs';
+
 
 
 
