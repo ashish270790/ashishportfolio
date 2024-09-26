@@ -1,0 +1,139 @@
+/* Import animate.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px; /* Adds space between columns */
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+  animation: fadeInUp 1.5s ease-out;
+  margin-bottom: 20px;
+}
+
+.footer-heading {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-section p {
+  color: #cccccc;
+  margin-bottom: 1rem;
+}
+.footer-section p:h {
+  color: #eaf604;
+  margin-bottom: 1rem;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 15px; /* Space between social icons */
+}
+
+.footer-social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.footer-social-icons a:hover {
+  color: #dff806;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.footer-links i {
+  margin-right: 8px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer-contact a {
+  color: #ccc;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.footer-contact i {
+  margin-right: 8px;
+}
+
+.footer-bottom {
+  margin-top: -20px;
+}
+
+.footer-bottom p {
+  color: #ccc;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom i {
+  color: #dc3545; /* Bootstrap's red */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer-section {
+  animation: fadeInUp 1s ease-out;
+}
+
+
+/* Services */
